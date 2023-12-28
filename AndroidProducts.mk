@@ -36,10 +36,26 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_whitefin_pkvm.mk \
     $(LOCAL_DIR)/aosp_whitefin_hwasan.mk \
     $(LOCAL_DIR)/aosp_whitefin_64.mk \
-    $(LOCAL_DIR)/factory_whitefin.mk
+    $(LOCAL_DIR)/factory_whitefin.mk \
+    $(LOCAL_DIR)/statix_oriole.mk \
+    $(LOCAL_DIR)/statix_oriole_64.mk \
+    $(LOCAL_DIR)/statix_raven.mk \
+    $(LOCAL_DIR)/statix_raven_64.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_slider-trunk_staging-userdebug \
     aosp_whitefin-trunk_staging-userdebug \
     aosp_oriole-trunk_staging-userdebug \
-    aosp_raven-trunk_staging-userdebug
+    aosp_raven-trunk_staging-userdebug \
+    statix_oriole-ap1a-user \
+    statix_oriole_64-ap1a-user \
+    statix_oriole-ap1a-userdebug \
+    statix_oriole_64-ap1a-userdebug \
+    statix_oriole-ap1a-eng \
+    statix_oriole_64-ap1a-eng \
+    statix_raven-ap1a-user \
+    statix_raven_64-ap1a-user \
+    statix_raven-ap1a-userdebug \
+    statix_raven_64-ap1a-userdebug \
+    statix_raven-ap1a-eng \
+    statix_raven_64-ap1a-eng
