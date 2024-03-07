@@ -15,13 +15,13 @@
 #
 
 # Enable load module in parallel
-BOARD_BOOTCONFIG += androidboot.load_modules_parallel=true
+# BOARD_BOOTCONFIG += androidboot.load_modules_parallel=true
 
 # The modules which need to be loaded in sequential
-BOARD_KERNEL_CMDLINE += exynos_mfc.load_sequential=1
-BOARD_KERNEL_CMDLINE += exynos_drm.load_sequential=1
-BOARD_KERNEL_CMDLINE += pcie-exynos-core.load_sequential=1
-BOARD_KERNEL_CMDLINE += g2d.load_sequential=1
+# BOARD_KERNEL_CMDLINE += exynos_mfc.load_sequential=1
+# BOARD_KERNEL_CMDLINE += exynos_drm.load_sequential=1
+# BOARD_KERNEL_CMDLINE += pcie-exynos-core.load_sequential=1
+# BOARD_KERNEL_CMDLINE += g2d.load_sequential=1
 
 RELEASE_GOOGLE_PRODUCT_RADIO_DIR := $(RELEASE_GOOGLE_RAVEN_RADIO_DIR)
 ifneq (,$(filter AP1%,$(RELEASE_PLATFORM_VERSION)))
