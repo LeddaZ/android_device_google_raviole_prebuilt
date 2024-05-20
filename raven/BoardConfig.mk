@@ -46,6 +46,9 @@ TARGET_BOOTLOADER_BOARD_NAME := raven
 USES_DEVICE_GOOGLE_RAVIOLE := true
 BOARD_KERNEL_CMDLINE += disable_dma32=on
 
+# vendor.img
+BOARD_PREBUILT_VENDORIMAGE := vendor/google_devices/raven-vendor/vendor.img
+
 include device/google/gs101/BoardConfig-common.mk
 include device/google/gs101-sepolicy/raven-sepolicy.mk
 include device/google/gs101/wifi/BoardConfig-wifi.mk
